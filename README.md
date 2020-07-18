@@ -6,7 +6,7 @@ PLNU Summer Research 2020 - Analyzing Pitching Kinematics with Openpose
 ## Overview:
 Hi! This document is a brief overview of what my program accomplishes, how it works, how to replicate it, and potential future improvements. 
 
-In this github repo, I have included this guide, my .ipynb program, and a few documents on how to replicate my work.
+In this github repo, I have included this guide, my .ipynb program, an example pitch video, and a few documents on how to replicate my work.
 
 
 
