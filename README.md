@@ -134,3 +134,33 @@ The program takes in a folder containing multiple videos that have already been 
       
    1. Maybe this would be another good measurement to obtain from the position dataframes
 
+
+
+## Citation of Openpose and other important Resources
+@article{8765346,
+  author = {Z. {Cao} and G. {Hidalgo Martinez} and T. {Simon} and S. {Wei} and Y. A. {Sheikh}},
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  title = {OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields},
+  year = {2019}
+}
+
+@inproceedings{simon2017hand,
+  author = {Tomas Simon and Hanbyul Joo and Iain Matthews and Yaser Sheikh},
+  booktitle = {CVPR},
+  title = {Hand Keypoint Detection in Single Images using Multiview Bootstrapping},
+  year = {2017}
+}
+
+@inproceedings{cao2017realtime,
+  author = {Zhe Cao and Tomas Simon and Shih-En Wei and Yaser Sheikh},
+  booktitle = {CVPR},
+  title = {Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields},
+  year = {2017}
+}
+
+@inproceedings{wei2016cpm,
+  author = {Shih-En Wei and Varun Ramakrishna and Takeo Kanade and Yaser Sheikh},
+  booktitle = {CVPR},
+  title = {Convolutional pose machines},
+  year = {2016}
+}
