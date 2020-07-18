@@ -1,6 +1,8 @@
 # Analyzing-Pitching-Kinematics-with-Openpose
 PLNU Summer Research 2020 - Analyzing Pitching Kinematics with Openpose
 
+
+
 ## Overview:
 Hi! This document is a brief overview of what I have learned/coded/attempted over the course of my Summer Research. 
 
@@ -9,28 +11,32 @@ To summarize, by using OpenPose, an open-source software package, as well as som
 In this github repo, I have included this guide, my .ipynb program, and a few documents on how to replicate my work.
 
 
+
+
 #### Notice on 3D Reconstruction:
 I spent a lot of time trying to figure out the installation of Openpose so that I could use its 3D reconstruction capabilities. Unfortunately, I was not able to figure out how to correctly set up Openpose’s 3D reconstruction module. So, as a result of not figuring out how to do 3D reconstruction, I simply chose to just stick to analyzing 2D videos. 
 
 
-### Description of Program:
+## Description of Program:
 My Program, ***“json_keypoint_analysis_multi_video”***, works best with multi-angle videos of a pitcher throwing a ball. 
 
 But, it's not limited to just those motions, or even being the same person in each video! It can get measurements on practically any movement.
 
 The program takes in a folder containing multiple videos that have already been processed by OpenPose. 
 
-#### Here is what the Openpose software does: 
+### Here is what the Openpose software does: 
 1. The Openpose software first examines the video to find where the subject is in each frame. 
 
 1. Then, it estimates where, and in what position the subject’s skeleton would be in that frame.
 
 1. Then, Openpose outputs a series of text-based .JSON files, where each file represents one frame, and contains the x,y position and confidence level of each keypoint used to build the skeleton.
 
-##### Here is an example of one .JSON file and how it is organized.
+
+#### Here is an example of one .JSON file and how it is organized.
 ![Command Photo](json_output_example_image.jpg)
- 
-#### Here is what my program does with the OpenPose output:
+
+
+### Here is what my program does with the OpenPose output:
 1. Set up the variables necessary for calculations by asking the user
 
 1. Read in the .JSON files from the user-specified folder to create ***Position*** dataframes for each video
@@ -46,7 +52,7 @@ The program takes in a folder containing multiple videos that have already been 
 1. Plot the results in meaningful ways
 
 
-### How to use my program (with pictures!):
+## How to use my program (with pictures!):
 1. First, install Openpose and get it working. Check out the file ***“Openpose & Ubuntu Install”***, it contains the Instructions on how to set up Openpose and build it with CMake and Visual Studio 2019. It also contains links to the OpenPose Github and to a video tutorial.
 
 1. Once you have Openpose all set up, go to the **Windows Powershell Prompt**, the keyboard shortcut is *the windows sign + x + a*. (This is for Windows systems only, other systems will have to look on the OpenPose Github under openpose/doc/installation.md for instructions)
@@ -78,7 +84,7 @@ The program takes in a folder containing multiple videos that have already been 
    1. If you do not have Jupyter notebooks installed, I have a guide on how to set it up through Anaconda.
 
 
-### Some ways that my program can be improved:
+## Some ways that my program can be improved:
 1. Find ways to better handle “0” values or extreme values from Openpose
 
    1. “0” values happens when a certain part of the body is obscured from view for a camera angle
