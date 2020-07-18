@@ -4,12 +4,17 @@ PLNU Summer Research 2020 - Analyzing Pitching Kinematics with Openpose
 
 
 ## Overview:
-Hi! This document is a brief overview of what I have learned/coded/attempted over the course of my Summer Research. 
-
-To summarize, by using OpenPose, an open-source software package, as well as some of my own python code, I have been able to analyze video of pitchers and gain some significant insights.
+Hi! This document is a brief overview of what my program accomplishes, how it works, how to replicate it, and potential future improvements. 
 
 In this github repo, I have included this guide, my .ipynb program, and a few documents on how to replicate my work.
 
+
+
+## Project Summary:
+
+By using OpenPose, an open-source Computer Vision application, as well as some of my own python code, I have been able to get important information on a pitcher's throwing motion by analyzing video data of the pitcher. 
+
+From this analysis, I can get frame-by-frame data on the position, velocity, acceleration, and throwing arm joint angles of the pitcher.
 
 
 
@@ -84,7 +89,7 @@ The program takes in a folder containing multiple videos that have already been 
    1. If you do not have Jupyter notebooks installed, I have a guide on how to set it up through Anaconda.
 
 
-## Some ways that my program can be improved:
+## Ideas for Future Improvements:
 1. Find ways to better handle “0” values or extreme values from Openpose
 
    1. “0” values happens when a certain part of the body is obscured from view for a camera angle
