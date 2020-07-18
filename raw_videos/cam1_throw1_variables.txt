@@ -1,0 +1,10 @@
+Variables for cam1_throw1.mov:
+
+subject_height is approx. 1.5 meters
+camera_pixel_width is 1920
+
+camera_pixel_hight is 992
+
+camera_fps is approx. 240
+
+is_right_handed is False
