@@ -2,8 +2,10 @@
 
 
 # Analyzing-Pitching-Kinematics-with-Openpose
+
 Point Loma Nazarene University Summer Research 2020
 
+*By: Jake Bell and Dr. Botts*
 
 
 ## Overview:
