@@ -26,7 +26,7 @@ I spent a lot of time trying to figure out the installation of Openpose so that 
 
 
 ## Description of Program:
-My program, ***“json_keypoint_analysis_multi_video”***, works best on videos from one angle, of the same subject, performing a similar motion, such as pitching.
+My program, ***“openpose_keypoint_analysis.ipynb”***, works best on videos from one angle, of the same subject, performing a similar motion, such as pitching.
 
 The program requires a folder containing multiple videos that have already been processed by OpenPose, as well as some variables about the video provided by the user. 
 
@@ -87,9 +87,9 @@ The program requires a folder containing multiple videos that have already been 
 
 1. Once you have processed all of your videos through openpose, you are ready to work with the main program. 
 
-1. Download ***“openpose_keypoint_analysis_multi_video.ipynb”*** from this github repository 
+1. Download ***“openpose_keypoint_analysis.ipynb”*** from this github repository 
 
-1. Place all of the videos have already processed, and place the ***"openpose_keypoint_analysis_multi_video.ipynb"*** file in the same directory as the video folder. 
+1. Place all of the videos have already processed, and place the ***"openpose_keypoint_analysis.ipynb"*** file in the same directory as the video folder. 
 
 Here are 3 photos of how to organize the files correctly.
 
@@ -100,7 +100,7 @@ Here are 3 photos of how to organize the files correctly.
 ![organization folder Photo 3](/pics/folder_organization_3.JPG)
 
 
-1. Now that you have correctly organized your processed videos, open ***"openpose_keypoint_analysis_multi_video.ipynb"*** in Jupyter notebooks
+1. Now that you have correctly organized your processed videos, open ***"openpose_keypoint_analysis.ipynb"*** in Jupyter notebooks
 
    1. If you do not have Jupyter notebooks or Anaconda installed, I have a guide on how to set it up in the ***"Installations"*** file.
 
