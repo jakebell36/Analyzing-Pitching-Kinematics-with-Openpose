@@ -1,3 +1,6 @@
+![Cover photo](/pics/cover_option_2_rendered.png)
+
+
 # Analyzing-Pitching-Kinematics-with-Openpose
 Point Loma Nazarene University Summer Research 2020
 
